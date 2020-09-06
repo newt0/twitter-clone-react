@@ -4,8 +4,11 @@ import SearchIcon from "@material-ui/icons/Search";
 
 function Widgets() {
   return (
-    <div>
-      <h2>Widgets</h2>
+    <div className="widgets">
+      <div className="widgets__input">
+        <SearchIcon className="widgets__searchIcon" />
+      </div>
+      <div className="widgets__widgetContainer"></div>
     </div>
   );
 }
