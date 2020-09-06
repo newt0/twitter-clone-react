@@ -1,5 +1,6 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Sidebar from "./Sidebar";
 
 function App() {
   return (
@@ -8,9 +9,10 @@ function App() {
       <h1>Twitter Clone </h1>
 
       {/* Sidebar */}
+      <Sidebar />
 
       {/* Feed */}
-      
+
       {/* Widgets */}
     </div>
   );
