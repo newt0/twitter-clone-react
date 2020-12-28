@@ -10,8 +10,11 @@
   padding: 10px;
 }
 
-.post__body > img {
+.post__body-img {
   border-radius: 20px;
+  object-fit: contain;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .post__footer {
